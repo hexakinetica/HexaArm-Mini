@@ -9,7 +9,7 @@
 
 ---
 
-### 📐 Specifications
+#### 📐 Specifications
 | Feature | Spec |
 | :--- | :--- |
 | **Payload** | ~0.5 kg |
@@ -18,7 +18,7 @@
 | **Controller** | Embedded (x86 Mini-PC + Driver Shield) |
 | **Manufacturing** | 3D Printed Covers + Aluminum Tube |
 
-### 📂 Repository Contents (Roadmap)
+#### 📂 Repository Contents (Roadmap)
 
 This repository serves as a complete "Kit" containing both mechanics and electronics:
 
