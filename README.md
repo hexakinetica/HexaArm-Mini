@@ -1,4 +1,12 @@
 ## 🐣 HexaArm MINI: The Desktop Educator
+<div align="center">
+  <img src="HexaArmMini-Solidworks.png" width="500" alt="HexaArm Mini CAD Render"/>
+</div>
+
+<div align="center">
+    <img src="https://img.shields.io/badge/Status-COMING_SOON-blue?style=for-the-badge" alt="Status">
+    <img src="https://img.shields.io/badge/License-AGPL--3.0_&_CC_BY--SA_4.0-green?style=for-the-badge" alt="License">
+</div>
 
 ### **Open Hardware Educational Manipulator**
 >
