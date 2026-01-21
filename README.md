@@ -42,8 +42,8 @@ This repository serves as a complete "Kit" containing both mechanics and electro
 ---
 
 ### 🔗 Ecosystem Links
-*   🧠 **Software Core:** [hexa-motion](https://github.com/HexaKinetica/hexa-motion) (Runs inside this robot).
-*   🎮 **Control UI:** [HexaStudio](https://github.com/HexaKinetica/HexaStudio).
+*   🧠 **Software Core:** [hexa-motion](https://github.com/HexaKinetica/HexaMotion_) (Runs inside this robot).
+*   🎮 **Control UI:** [HexaStudio](https://github.com/HexaKinetica/HexaStudio_).
 
 ---
 
