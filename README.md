@@ -1,4 +1,4 @@
-## HexaArm Mini: Open Hardware Desktop Manipulator
+## HexaArm Mini (Maker line): Open Hardware Desktop Manipulator
 
 #### Open-source desktop robotic arm built around a 3D-printable mechanical structure, CAN-based communication, and a hardware layout intended for practical assembly, testing, and iteration.
 
@@ -38,17 +38,6 @@ The image shown in this repository reflects the current version, and the CAD mod
 
 ---
 
-## Original Release Notes
-
-The original Q1 2026 release was built around:
-- a 3D-printable mechanical structure
-- Steadywin motors
-- CAN-based communication
-
-That version remains part of the project history and is kept here as a documented reference point.
-
----
-
 ## Specifications
 
 | Feature | Spec |
@@ -57,10 +46,10 @@ That version remains part of the project history and is kept here as a documente
 | **Communication** | CAN |
 | **Manufacturing** | 3D Printed |
 | **Print Volume Requirement** | 200 × 200 × 250 mm |
-| **Workspace** | Adjustable through link-length customization |
-| **CAD Format** | STEP |
+| **Workspace** | 600mm by default, adjustable through link-length customization |
+| **CAD Format** | STEP / 3mf |
 
-> Note: some parameters differ between the original Q1 2026 release and the current version 2+ design.
+> Note: some parameters differ between the original Q1 2026 release and the current version 2 design.
 
 ---
 
