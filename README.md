@@ -1,51 +1,95 @@
-## 🐣 HexaArm MINI: The Desktop Educator
-<div align="center">
-  <img src="HexaArmMini-Solidworks.png" width="500" alt="HexaArm Mini CAD Render"/>
-</div>
+## HexaArm Mini: Open Hardware Desktop Manipulator
+
+#### Open-source desktop robotic arm built around a 3D-printable mechanical structure, CAN-based communication, and a hardware layout intended for practical assembly, testing, and iteration.
 
 <div align="center">
-    <img src="https://img.shields.io/badge/Status-COMING_SOON-blue?style=for-the-badge" alt="Status">
-    <img src="https://img.shields.io/badge/License-AGPL--3.0_&_CC_BY--SA_4.0-green?style=for-the-badge" alt="License">
+    <img src="https://img.shields.io/badge/Status-Released_Q1_2026-blue?style=for-the-badge" alt="Status">
+    <img src="https://img.shields.io/badge/Active_Development-Version_2%2B-orange?style=for-the-badge" alt="Development">
+    <img src="https://img.shields.io/badge/License-AGPL--3.0_%26_CC_BY--SA_4.0-green?style=for-the-badge" alt="License">
 </div>
 
-### **Open Hardware Educational Manipulator**
->
-> HexaArm Mini is a fully open-source desktop robot designed for universities and STEM education. Unlike toys, it runs on the same **HexaMotion** kernel as our industrial line, providing a real engineering experience in a compact form factor.
+<br>
 
-#### 🚧 Status: COMING SOON (Q1 2026)
-*We are currently finalizing the BOM and documentation for the public release. Star this repo to get notified!*
+<div align="center">
+  <img src="HAMM_v2.01.png" width="500" alt="HexaArm Mini CAD Render"/>
+</div>
 
 ---
 
-#### 📐 Specifications
+## Overview
+
+HexaArm Mini was first released in Q1 2026 as a compact open-source desktop robot platform based on a 3D-printable mechanical design, Steadywin motors, and CAN-based communication.
+
+Since that initial release, the design has gone through multiple mechanical and electrical changes. As a result, the current hardware no longer fully matches the original revision published in this repository.
+
+This repository is preserved as a reference for the earlier version and its design approach, while ongoing development and active support are now focused on version 2+.
+
+---
+
+## Version 2+
+
+Version 2+ reflects the current direction of the HexaArm Mini platform.
+
+The main changes in this version include a transition to more accessible stepper motors with MKS drivers, a transition to harmonic reducers, a reinforced base, and a slightly optimized overall mechanical layout. These changes were made to simplify the hardware stack, improve the structure of the platform, and make further iteration more practical.
+
+Depending on the task, the working area can be adjusted by changing the link lengths. In its current form, the manipulator can be printed on a 200 × 200 × 250 mm 3D printer.
+
+The image shown in this repository reflects the current version, and the CAD model is provided in STEP format.
+
+---
+
+## Original Release Notes
+
+The original Q1 2026 release was built around:
+- a 3D-printable mechanical structure
+- Steadywin motors
+- CAN-based communication
+
+That version remains part of the project history and is kept here as a documented reference point.
+
+---
+
+## Specifications
+
 | Feature | Spec |
 | :--- | :--- |
-| **Payload** | ~0.5 kg |
-| **Reach** | 600 mm |
-| **Architecture** | 6-DOF / All-in-One Design |
-| **Controller** | Embedded (x86 Mini-PC + Driver Shield) |
-| **Manufacturing** | 3D Printed Covers + Aluminum Tube |
+| **Architecture** | 6-DOF |
+| **Communication** | CAN |
+| **Manufacturing** | 3D Printed |
+| **Print Volume Requirement** | 200 × 200 × 250 mm |
+| **Workspace** | Adjustable through link-length customization |
+| **CAD Format** | STEP |
 
-#### 📂 Repository Contents (Roadmap)
-
-This repository serves as a complete "Kit" containing both mechanics and electronics:
-
-#### `/mechanical`
-*   **STL Files:** Ready-to-print covers and structural parts.
-*   **STEP Assembly:** Full CAD source for modification.
-*   **BOM:** Bill of Materials (Bearings, Belts, Fasteners).
-
-#### `/electronics`
-*   **Carrier Board:** Schematics and Gerbers for the custom shield (connects Mini-PC to drivers).
-*   **Wiring Guide:** Internal cable management and pinout.
+> Note: some parameters differ between the original Q1 2026 release and the current version 2+ design.
 
 ---
 
-### 🔗 Ecosystem Links
-*   🧠 **Software Core:** [hexa-motion](https://github.com/HexaKinetica/HexaMotion_) (Runs inside this robot).
-*   🎮 **Control UI:** [HexaStudio](https://github.com/HexaKinetica/HexaStudio_).
+## Repository Contents
+
+### `/HAMM_3D_print`
+3D-printable parts for the current hardware version.
+
+### `/HAMM_BOM`
+Bill of materials for the platform.
+
+### `/HAMM_CAD`
+Main CAD files for the project.
+
+### `/HAMM_CAD_light`
+Reduced or simplified CAD package for easier handling.
+
+### `/HAMM_docs`
+Project documentation and supporting notes.
+
+### `/HAMM_URDF`
+Robot description files for software integration, visualization, and simulation workflows.
 
 ---
 
+## License
 
-**[HexaKinetica.com](https://hexakinetica.com)**
+This project is released under:
+- **AGPL-3.0** for software-related content
+- **CC BY-SA 4.0** for applicable open hardware and documentation content
+
+See the license files in the repository for details.

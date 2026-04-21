@@ -1,0 +1,365 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This URDF was automatically created by SolidWorks to URDF Exporter! Originally created by Stephen Brawner (brawner@gmail.com) 
+     Commit Version: 1.6.0-4-g7f85cfe  Build Version: 1.6.7995.38578
+     For more information, please see http://wiki.ros.org/sw_urdf_exporter -->
+<robot
+  name="HexaArm_Mini_Nema_Assem.SLDASM5">
+  <link
+    name="base_link">
+    <inertial>
+      <origin
+        xyz="-0.000619586771899105 0.0703032322530621 -0.00106148430765796"
+        rpy="0 0 0" />
+      <mass
+        value="1.08217571048909" />
+      <inertia
+        ixx="0.00463164331238356"
+        ixy="-3.22218490109699E-05"
+        ixz="1.9764733562562E-05"
+        iyy="0.003870198263406"
+        iyz="-5.49317565063621E-05"
+        izz="0.00465569487064889" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://HexaArm_Mini_Nema_Assem.SLDASM5/meshes/base_link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.0980392156862745 0.0980392156862745 0.0980392156862745 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://HexaArm_Mini_Nema_Assem.SLDASM5/meshes/base_link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <link
+    name="Link_1">
+    <inertial>
+      <origin
+        xyz="3.88138147860984E-05 0.0424465866639341 0.00109896219679673"
+        rpy="0 0 0" />
+      <mass
+        value="0.607587806468961" />
+      <inertia
+        ixx="0.00191607693747045"
+        ixy="7.4158114547171E-08"
+        ixz="-5.44697602656197E-07"
+        iyy="0.00202580543608633"
+        iyz="-0.000171809803455921"
+        izz="0.00165130031760462" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://HexaArm_Mini_Nema_Assem.SLDASM5/meshes/Link_1.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.0980392156862745 0.0980392156862745 0.0980392156862745 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://HexaArm_Mini_Nema_Assem.SLDASM5/meshes/Link_1.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="Joint_1"
+    type="continuous">
+    <origin
+      xyz="0 0.1605 0"
+      rpy="-3.14159265358979 0 3.14159265358842" />
+    <parent
+      link="base_link" />
+    <child
+      link="Link_1" />
+    <axis
+      xyz="0 -1 0" />
+  </joint>
+  <link
+    name="Link_2">
+    <inertial>
+      <origin
+        xyz="-1.54885659161552E-05 0.094342144277815 -0.107331638233284"
+        rpy="0 0 0" />
+      <mass
+        value="1.11953724293919" />
+      <inertia
+        ixx="0.0172274441423924"
+        ixy="3.40668045687898E-06"
+        ixz="1.02342554233938E-06"
+        iyy="0.00184980071551865"
+        iyz="-0.000342542354378944"
+        izz="0.0171298822141241" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://HexaArm_Mini_Nema_Assem.SLDASM5/meshes/Link_2.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.0980392156862745 0.0980392156862745 0.0980392156862745 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://HexaArm_Mini_Nema_Assem.SLDASM5/meshes/Link_2.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="Joint_2"
+    type="continuous">
+    <origin
+      xyz="0 0.0625000000000049 -0.000798502810556823"
+      rpy="3.14159265358979 0 3.14159265358979" />
+    <parent
+      link="Link_1" />
+    <child
+      link="Link_2" />
+    <axis
+      xyz="0 0 -1" />
+  </joint>
+  <link
+    name="Link_3">
+    <inertial>
+      <origin
+        xyz="0.000885895254364 0.00930543384877369 0.021081024614505"
+        rpy="0 0 0" />
+      <mass
+        value="0.280830447562642" />
+      <inertia
+        ixx="0.000454000045481955"
+        ixy="2.04657657417616E-06"
+        ixz="7.40071593815089E-07"
+        iyy="0.000342653791090752"
+        iyz="6.07527818427745E-05"
+        izz="0.000465365946674616" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://HexaArm_Mini_Nema_Assem.SLDASM5/meshes/Link_3.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.0980392156862745 0.0980392156862745 0.0980392156862745 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://HexaArm_Mini_Nema_Assem.SLDASM5/meshes/Link_3.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="Joint_3"
+    type="continuous">
+    <origin
+      xyz="0 0.2675 0"
+      rpy="-3.14159265358979 0.041945102597023 -1.5707963267949" />
+    <parent
+      link="Link_2" />
+    <child
+      link="Link_3" />
+    <axis
+      xyz="-0.0419328040352175 0 -0.999120433153953" />
+  </joint>
+  <link
+    name="Link_4">
+    <inertial>
+      <origin
+        xyz="-1.81100666516443E-05 -0.0270768305189328 -0.0565157595844719"
+        rpy="0 0 0" />
+      <mass
+        value="0.393680842488272" />
+      <inertia
+        ixx="0.002321706714535"
+        ixy="-6.35546390347508E-07"
+        ixz="-1.08092962262533E-07"
+        iyy="0.00195544467088111"
+        iyz="-0.00079734597390466"
+        izz="0.00065805212329374" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://HexaArm_Mini_Nema_Assem.SLDASM5/meshes/Link_4.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.0980392156862745 0.0980392156862745 0.0980392156862745 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://HexaArm_Mini_Nema_Assem.SLDASM5/meshes/Link_4.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="Joint_4"
+    type="continuous">
+    <origin
+      xyz="3.34834618758162E-05 0.130774218619618 0.000797800473953725"
+      rpy="2.0395149480133 0.041945102597023 0" />
+    <parent
+      link="Link_3" />
+    <child
+      link="Link_4" />
+    <axis
+      xyz="0 -0.451743477200769 -0.892147874966117" />
+  </joint>
+  <link
+    name="Link_5">
+    <inertial>
+      <origin
+        xyz="-0.0266124702015702 -0.0283139180562382 -0.000183462420613401"
+        rpy="0 0 0" />
+      <mass
+        value="0.119063873390372" />
+      <inertia
+        ixx="0.000133716437533054"
+        ixy="4.36724337415485E-05"
+        ixz="3.40260474913225E-07"
+        iyy="0.000106441603853964"
+        iyz="-2.19497722284535E-07"
+        izz="0.000153071469014331" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://HexaArm_Mini_Nema_Assem.SLDASM5/meshes/Link_5.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.43921568627451 0.43921568627451 0.43921568627451 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://HexaArm_Mini_Nema_Assem.SLDASM5/meshes/Link_5.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="Joint_5"
+    type="continuous">
+    <origin
+      xyz="0 -0.0665082864143298 -0.131347167998647"
+      rpy="3.14159265358979 -0.468718621218406 -1.5707963267949" />
+    <parent
+      link="Link_4" />
+    <child
+      link="Link_5" />
+    <axis
+      xyz="-1 0 0" />
+  </joint>
+  <link
+    name="Link_6">
+    <inertial>
+      <origin
+        xyz="0.000118650851475888 -0.000116507152496004 -0.0183821626254401"
+        rpy="0 0 0" />
+      <mass
+        value="0.0635564130562955" />
+      <inertia
+        ixx="2.15108395533847E-05"
+        ixy="-1.98946598045252E-08"
+        ixz="2.35151439636222E-08"
+        iyy="2.14909562448357E-05"
+        iyz="-3.40500205337457E-08"
+        izz="3.75545506455234E-05" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://HexaArm_Mini_Nema_Assem.SLDASM5/meshes/Link_6.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.43921568627451 0.43921568627451 0.43921568627451 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://HexaArm_Mini_Nema_Assem.SLDASM5/meshes/Link_6.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="Joint_6"
+    type="continuous">
+    <origin
+      xyz="0.00399999999999801 -0.0635000000000001 0"
+      rpy="1.5707963267949 0 3.14159265358979" />
+    <parent
+      link="Link_5" />
+    <child
+      link="Link_6" />
+    <axis
+      xyz="0 0 -1" />
+  </joint>
+</robot>
