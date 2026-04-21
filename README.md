@@ -3,8 +3,8 @@
 #### Open-source desktop robotic arm built around a 3D-printable mechanical structure, CAN-based communication, and a hardware layout intended for practical assembly, testing, and iteration.
 
 <div align="center">
-    <img src="https://img.shields.io/badge/Status-Released_Q1_2026-blue?style=for-the-badge" alt="Status">
-    <img src="https://img.shields.io/badge/Active_Development-Version_2%2B-orange?style=for-the-badge" alt="Development">
+    <img src="https://img.shields.io/badge/Status-Released_Q2_2026-blue?style=for-the-badge" alt="Status">
+    <img src="https://img.shields.io/badge/Active_Development-Version_2.02-orange?style=for-the-badge" alt="Development">
     <img src="https://img.shields.io/badge/License-AGPL--3.0_%26_CC_BY--SA_4.0-green?style=for-the-badge" alt="License">
 </div>
 
@@ -26,9 +26,9 @@ This repository is preserved as a reference for the earlier version and its desi
 
 ---
 
-## Version 2+
+## Version 2
 
-Version 2+ reflects the current direction of the HexaArm Mini platform.
+Current repository reflects the current direction of the HexaArm Mini platform.
 
 The main changes in this version include a transition to more accessible stepper motors with MKS drivers, a transition to harmonic reducers, a reinforced base, and a slightly optimized overall mechanical layout. These changes were made to simplify the hardware stack, improve the structure of the platform, and make further iteration more practical.
 
@@ -75,6 +75,12 @@ Robot description files for software integration, visualization, and simulation 
 
 ---
 
+### 🔗 Ecosystem Links
+*   **Software Core:** [hexa-motion](https://github.com/HexaKinetica/HexaMotion_) (Runs inside this robot).
+*   **Control UI:** [HexaStudio](https://github.com/HexaKinetica/HexaStudio_).
+
+---
+
 ## License
 
 This project is released under:
@@ -82,3 +88,5 @@ This project is released under:
 - **CC BY-SA 4.0** for applicable open hardware and documentation content
 
 See the license files in the repository for details.
+
+**[Hexakinetica.com](https://hexakinetica.com)**
