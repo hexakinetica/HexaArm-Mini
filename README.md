@@ -22,8 +22,6 @@ HexaArm Mini was first released in Q1 2026 as a compact open-source desktop robo
 
 Since that initial release, the design has gone through multiple mechanical and electrical changes. As a result, the current hardware no longer fully matches the original revision published in this repository.
 
-This repository is preserved as a reference for the earlier version and its design approach, while ongoing development and active support are now focused on version 2+.
-
 ---
 
 ## Version 2
@@ -76,8 +74,8 @@ Robot description files for software integration, visualization, and simulation 
 ---
 
 ### 🔗 Ecosystem Links
-*   **Software Core:** [hexa-motion](https://github.com/HexaKinetica/HexaMotion_) (Runs inside this robot).
-*   **Control UI:** [HexaStudio](https://github.com/HexaKinetica/HexaStudio_).
+*   **Software Core:** [hexa-motion](https://github.com/HexaKinetica/HexaMotion) (Runs inside this robot).
+*   **Control UI:** [HexaStudio](https://github.com/HexaKinetica/HexaStudio).
 
 ---
 
